@@ -1,5 +1,15 @@
 <template>
   <div>
-    <h1>Nuxt 3 with Tailwind CSS, DaisyUI, andd supabase</h1>
+    <div class="hero min-h-screen bg-base-200">
+      <div class="hero-content text-center">
+        <div class="max-w-md">
+          <h1 class="text-5xl font-bold">Welcome to CommentTheWeb Through X</h1>
+          <p class="py-6">
+           Comment The web is a platform that allows you to comment on any website you want through X. 
+          </p>
+          <button class="btn btn-primary">Get Started (Soon)</button>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
